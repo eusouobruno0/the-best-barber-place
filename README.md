@@ -1,13 +1,13 @@
 # The Best Barber Place
 
-Site demonstrativo com agendamento local, carrinho, combos oficiais e sugestões complementares. Nenhum horário real é reservado e os dados pessoais não são enviados a um servidor.
+Site demonstrativo com carrinho, combos e agendamento sem reserva real.
+
+## GitHub Pages
+
+Em Settings > Pages, escolha Deploy from a branch, branch main e pasta / (root), e salve. Os arquivos na raiz estão prontos para publicação. Nenhuma build é necessária.
 
 ## Cloudflare Pages
 
-- Branch: `main`
-- Predefinição: Nenhum
-- Comando de build: deixe vazio
-- Diretório de saída: `dist`
-- Diretório raiz: deixe vazio
+Branch main, predefinição Nenhum, comando de build vazio e diretório de saída dist.
 
-O site não exige instalação de dependências. Fotos, avaliações, horários e integração real da agenda aguardam aprovação. Atualize URLs absolutas de Open Graph e sitemap.xml para o domínio final. A indexação está bloqueada em robots.txt enquanto for demonstração.
+A versão GitHub Pages está na raiz; a versão Cloudflare está em dist. Mantenha as duas sincronizadas ao editar.

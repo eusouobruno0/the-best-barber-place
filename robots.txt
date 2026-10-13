@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Proposta demonstrativa: liberar indexação somente após aprovação.
